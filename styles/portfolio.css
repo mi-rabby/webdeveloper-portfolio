@@ -99,11 +99,28 @@ nav a{
     margin-bottom: 30px;
 }
 /* MAIN SECTION STYLES */
-
+.main{
+        max-width: 1140px;
+        margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
     margin:130px 0px ;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about-info{
+    text-align: center;
+    /* font-weight: bold; */
+}
+#what-i-description{
+        padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
 }
