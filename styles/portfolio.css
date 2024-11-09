@@ -13,17 +13,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     line-height: normal;
     font-weight: 800;
+    /* nav realed styles */
 
 }
 nav > ul{
     display: flex;
     align-items: center;
+   
 }
 nav li{
      list-style: none;
@@ -38,7 +41,23 @@ nav a{
     border-radius:5px ;
     border: 0;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800px;
     color: white;
     padding: 15px 35px 19px 36px;
+}
+/* header relates styles */
+.header{
+    background-color: 
+    #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+,.banner .profile-pic{
+    width: 500px;
+    height: 600px;
+    margin: 47px 38px 0 163px;
+    object-fit: contain;
 }
