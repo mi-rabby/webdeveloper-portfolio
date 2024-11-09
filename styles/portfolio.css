@@ -140,3 +140,31 @@ main section{
 .skill-description{
     color: #757575;
 }
+/* Resume section styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description,{
+    color: #fff;
+}
+.resume-item-institute{
+   color: #757575;
+   font-size: 20px;
+   margin-bottom: 20px;
+   margin-top: 0px;
+}
+.resume-item-title{
+        font-size: 25px;
+        font-weight: 700px;
+        color: #474747; 
+        margin: 10px;
+}
+.resume-container hr{
+    /* margin: 30px; */
+}
