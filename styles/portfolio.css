@@ -175,8 +175,33 @@ main section{
 /* footer styles */
 footer{
     display: flex;
+    gap: 100px;
     margin-top: 130px;
     padding: 130px 230px;
     background-color: #fff8f3;
   
+}
+.footer-column{
+    width: 50%;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+.text{
+    width: 200px;
+    height: 100px;
+    width: 100%;
+}
+.footer-column{
+     width: 50%;   
+}
+.social-links a{
+    margin-right: 25px;
 }
