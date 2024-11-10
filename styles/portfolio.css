@@ -172,3 +172,11 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer styles */
+footer{
+    display: flex;
+    margin-top: 130px;
+    padding: 130px 230px;
+    background-color: #fff8f3;
+  
+}
